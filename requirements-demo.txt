@@ -1,0 +1,5 @@
+# 本地演示模式的最小依赖（Python 3.10+）
+fastapi>=0.100,<1
+uvicorn>=0.23,<1
+pydantic>=2,<3
+websockets>=12,<16

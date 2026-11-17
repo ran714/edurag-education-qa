@@ -1,0 +1,5 @@
+-r requirements-dev.txt
+ragas==0.2.6
+langchain-openai==1.1.10
+openai==2.24.0
+pymilvus==2.5.4

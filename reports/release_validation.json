@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-11-17T08:06:28.613635+00:00",
+  "version": "1.2.1",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.4",
+    "fresh_venv": true,
+    "packages": {
+      "fastapi": "0.163.1",
+      "uvicorn": "0.54.0",
+      "pydantic": "2.14.3",
+      "websockets": "15.0.1",
+      "httpx": "0.28.1",
+      "langchain-core": "1.8.1",
+      "ruff": "0.17.5",
+      "openai": "1.109.1",
+      "PyMySQL": "1.2.4",
+      "redis": "5.3.1",
+      "setuptools": "80.10.2"
+    }
+  },
+  "source_only_candidate_regression": {
+    "generated_at": "2026-11-17T08:12:21.527693+00:00",
+    "tests_run": 105,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 2,
+    "seconds": 2.360381499864161,
+    "successful": true,
+    "scope": "offline_regression_with_test_doubles_not_real_provider"
+  },
+  "demo_api_acceptance": {
+    "passed": true,
+    "scope": [
+      "homepage",
+      "health",
+      "readiness",
+      "authored_faq",
+      "websocket",
+      "history"
+    ]
+  },
+  "lint": {
+    "tool": "ruff check",
+    "passed": true
+  },
+  "real_model_routing": {
+    "generated_at": "2026-11-17T08:12:39.939028+00:00",
+    "version": "1.2.1",
+    "checks": [
+      {
+        "check": "updated_full_service_ready",
+        "passed": true
+      },
+      {
+        "check": "general_question",
+        "query": "什么是人工智能？",
+        "passed": true
+      },
+      {
+        "check": "general_question",
+        "query": "机器学习有哪些算法？",
+        "passed": true
+      },
+      {
+        "check": "general_question",
+        "query": "如何学习Python？",
+        "passed": true
+      },
+      {
+        "check": "general_websocket_and_history",
+        "passed": true
+      },
+      {
+        "check": "grounded_question",
+        "query": "请根据课程资料说明课程包含哪些学习阶段",
+        "scope": null,
+        "passed": true
+      },
+      {
+        "check": "grounded_question",
+        "query": "请提供本课程今年的精确学费和退款承诺",
+        "scope": "java",
+        "passed": true
+      }
+    ],
+    "code_sha256": {
+      "rag_qa/core/new_rag_system.py": "b0701dba5949929ee0f989797c4f446784736f26534d24e9500b1fef1ba3dea3",
+      "rag_qa/core/prompts.py": "869b29d3ae845755e686c9c1326d7f0e423831854c56f9e8517e50b9218651b8"
+    },
+    "scope": "small_functional_check_with_real_dependencies_and_model_not_accuracy_evaluation"
+  },
+  "github_ci": {
+    "configured": true,
+    "executed": false
+  },
+  "publication": {
+    "uploaded": false,
+    "source_permission": "pending"
+  },
+  "limitations": [
+    "Full model dependencies were not reinstalled in a fresh environment.",
+    "The full service validation used existing local MySQL/Redis/Milvus and model weights.",
+    "Real-model routing checks are functional examples, not answer accuracy evaluation.",
+    "Two historical corpus checks are explicitly skipped in the source-only candidate.",
+    "Linux checks are configured but have not run."
+  ],
+  "full_local_corpus_regression": {
+    "generated_at": "2026-11-17T08:06:22.917267+00:00",
+    "tests_run": 105,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 2.8275198000483215,
+    "successful": true,
+    "scope": "offline_regression_with_test_doubles_not_real_provider"
+  },
+  "demo_only_fresh_environment": {
+    "passed": true,
+    "installed_requirements": "requirements-demo.txt",
+    "scope": "Import application and answer authored FAQ using only lightweight dependencies."
+  },
+  "browser_acceptance": {
+    "passed": true,
+    "browser": "isolated headless Edge",
+    "scope": "Select Python subject and submit authored FAQ through UI",
+    "screenshot": "docs/assets/demo.png"
+  }
+}

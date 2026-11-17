@@ -1,0 +1,41 @@
+# IDE
+.idea/
+.vscode/
+
+# Python environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local models and service data
+rag_qa/models/
+.runtime/
+data/runtime/
+.docker-config/
+
+# Logs and process files
+logs/
+*.log
+*.pid
+
+# Local secrets
+config.ini
+.env
+.env.*
+!.env.example
+
+# Build and temporary outputs
+output/
+tmp/
+dist/
+build/
+
+# Original course assets and raw evaluation excerpts stay local pending source review.
+mysql_qa/data/
+rag_qa/data/
+rag_qa/classify_data/
+evals/*.json
+evals/*.md
+reports/*
+!reports/release_validation.json
