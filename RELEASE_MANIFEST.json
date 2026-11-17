@@ -1,7 +1,7 @@
 {
   "version": "1.2.1",
   "created_at": "2026-11-17T08:09:57.205235+00:00",
-  "publication_status": "private_github_upload_upstream_license_pending",
+  "publication_status": "public_github_release_upstream_source_pending",
   "original_course_assets_included": false,
   "files": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "path": "docs/发布说明.md",
-      "sha256": "044f2af9d517001406a4992b17b1cba1842f1045601b254172af9344abf1b9c8"
+      "sha256": "5864ad5b162e05bd5aedf8e0cde2f844b95cd178f5d41914ae50fcaa047fcc93"
     },
     {
       "path": "docs/项目架构.md",
@@ -78,7 +78,7 @@
     },
     {
       "path": "docs/验证记录.md",
-      "sha256": "09a5862db30ffba7cd86ea86182389ea1a388fa193bc014161cfb36d4667217a"
+      "sha256": "e79961e1831a220376ecc06a890d8d4d108799bdee5c1d81f629360cde7db06d"
     },
     {
       "path": "evals/baselines/bm25_v2.py",
@@ -218,11 +218,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "aea741d228a44e5ab9dce8ece36a397953330fef9d42e75274419e2df598ab92"
+      "sha256": "03d9f9243225d1645754ce28fac222b451c517c19e8cfd127fc580725df973ba"
     },
     {
       "path": "reports/release_validation.json",
-      "sha256": "b1e51851884cb333daa35af8c8ad0e0d714b3f60f4b2da7bd125468ae4a05d16"
+      "sha256": "3d42d92e456631e14b1d71286a4c7cbdaee13f064103b24278e6659a84beaabc"
     },
     {
       "path": "requirements-demo.txt",
@@ -354,7 +354,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "2cb26527a13f74485fabcd2bb83da13bdf530225f160078250d0e5587f1ae5fa"
+      "sha256": "df49566f965ffc0be2193ee99c393bc2853fa8488edd4dcdaaaa73d4ce01068d"
     }
   ],
   "repository_url": "https://github.com/ran714/edurag-education-qa"

@@ -116,9 +116,15 @@
   },
   "publication": {
     "uploaded": true,
-    "private": true,
+    "private": false,
     "repository_url": "https://github.com/ran714/edurag-education-qa",
-    "source_permission": "pending"
+    "source_permission": "pending",
+    "anonymous_access": {
+      "repository_page": 200,
+      "repository_api": 200,
+      "raw_readme": 200,
+      "authenticated": false
+    }
   },
   "limitations": [
     "Full model dependencies were not reinstalled in a fresh environment.",

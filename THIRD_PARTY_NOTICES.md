@@ -14,7 +14,7 @@
 - 原始问答、参考答案、评分提示与课程资料摘录等评测明细；
 - 模型权重、私有配置、日志、会话数据库及 Docker 数据目录。
 
-公开候选目录使用 `examples/` 下本轮自编的软件演示资料。原本地资料保持原样。排除原资料不等于已经解决衍生源码的许可问题；公开发布前仍应补充上游来源与适用许可。
+公开候选目录使用 `examples/` 下本轮自编的软件演示资料。原本地资料保持原样。排除原资料不等于已经解决衍生源码的许可问题；上游来源与适用许可的记录仍待补充。
 
 ## 依赖与模型
 
@@ -25,4 +25,4 @@
 - [Happy-Chen-CH/Educational_RAG_System](https://github.com/Happy-Chen-CH/Educational_RAG_System)：包含同名 FAQ 文件及相近的 BERT、BGE-M3、MySQL/Milvus 模块；尚未确认是本地代码的直接上游。
 - [spongebobgit/Hybrid-Retrieval-QA-System](https://github.com/spongebobgit/Hybrid-Retrieval-QA-System)：包含同名 FAQ 文件与相近目录结构；同名文件或另一个仓库的许可证不能单独证明本项目来源。
 
-这些链接仅供项目持有人核对，不据此补造作者、授权关系或整库许可证。当前 GitHub 仓库保持私有。
+这些链接仅供项目持有人核对，不据此补造作者、授权关系或整库许可证。当前 GitHub 仓库已公开，课程原始资料与模型权重不随源码分发。
