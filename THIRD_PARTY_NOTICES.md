@@ -19,3 +19,10 @@
 ## 依赖与模型
 
 第三方 Python 包和模型分别适用其上游许可证。模型权重不随源码分发；完整模式需要自行准备 BGE-M3、BGE Reranker、BERT 基础模型及已训练的查询分类器。Qwen 通过用户自行配置的 API 调用。
+
+## 检索到的来源线索（尚未确认直接来源）
+
+- [Happy-Chen-CH/Educational_RAG_System](https://github.com/Happy-Chen-CH/Educational_RAG_System)：包含同名 FAQ 文件及相近的 BERT、BGE-M3、MySQL/Milvus 模块；尚未确认是本地代码的直接上游。
+- [spongebobgit/Hybrid-Retrieval-QA-System](https://github.com/spongebobgit/Hybrid-Retrieval-QA-System)：包含同名 FAQ 文件与相近目录结构；同名文件或另一个仓库的许可证不能单独证明本项目来源。
+
+这些链接仅供项目持有人核对，不据此补造作者、授权关系或整库许可证。当前 GitHub 仓库保持私有。

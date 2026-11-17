@@ -4,6 +4,8 @@
 
 **当前源码版本：1.2.1。定位：个人学习与改造项目、本地可验证原型。**
 
+已上传至 [ran714/edurag-education-qa](https://github.com/ran714/edurag-education-qa)，当前为私有仓库，访问和克隆需要仓库权限。源码提交的 Windows/Linux [quality 检查](https://github.com/ran714/edurag-education-qa/actions/runs/44053562107)均已通过。
+
 | 模式 | 能力 | 所需环境 |
 |---|---|---|
 | `demo` | FAQ 字面匹配、预置概念、SQLite 会话、WebSocket 分段展示 | Python 3.12 与轻量依赖 |
@@ -91,7 +93,7 @@ flowchart TD
 .\venv\Scripts\python.exe scripts/check_demo.py
 ```
 
-离线检查不需要 Docker、权重或 API Key。`.github/workflows/quality.yml` 配置 Windows/Linux 检查，云端是否通过以仓库实际 Actions 结果为准。
+离线检查不需要 Docker、权重或 API Key。`.github/workflows/quality.yml` 配置 Windows/Linux 检查，首次源码提交的 Windows/Linux 检查均已通过；后续提交以仓库实际 Actions 结果为准。
 
 完整服务的真实调用验收：
 
@@ -117,4 +119,4 @@ flowchart TD
 .\venv\Scripts\python.exe scripts/prepare_release.py
 ```
 
-脚本按白名单写入新的 `.runtime/releases/edurag-*` 目录并生成文件哈希清单，不覆盖本地数据，不执行网络发布。确认来源与许可后，再将该候选目录用于 GitHub 发布。具体变更见 [发布说明](docs/发布说明.md)。
+脚本按白名单写入新的 `.runtime/releases/edurag-*` 目录并生成文件哈希清单，不覆盖本地数据，不执行网络发布。当前已完成私有上传；确认来源与许可后，再决定公开范围。具体变更见 [发布说明](docs/发布说明.md)。

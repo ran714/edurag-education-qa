@@ -92,10 +92,32 @@
   },
   "github_ci": {
     "configured": true,
-    "executed": false
+    "executed": true,
+    "validated_commit": "77bea0620fe6413787257b18041c083465e6e7ff",
+    "run_id": 44053562107,
+    "html_url": "https://github.com/ran714/edurag-education-qa/actions/runs/44053562107",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 133937080725,
+        "name": "offline (windows-latest)",
+        "status": "completed",
+        "conclusion": "success",
+        "active_step": null
+      },
+      {
+        "id": 133937081290,
+        "name": "offline (ubuntu-latest)",
+        "status": "completed",
+        "conclusion": "success",
+        "active_step": null
+      }
+    ]
   },
   "publication": {
-    "uploaded": false,
+    "uploaded": true,
+    "private": true,
+    "repository_url": "https://github.com/ran714/edurag-education-qa",
     "source_permission": "pending"
   },
   "limitations": [
@@ -103,7 +125,7 @@
     "The full service validation used existing local MySQL/Redis/Milvus and model weights.",
     "Real-model routing checks are functional examples, not answer accuracy evaluation.",
     "Two historical corpus checks are explicitly skipped in the source-only candidate.",
-    "Linux checks are configured but have not run."
+    "Linux CI validates lightweight offline and demo paths, not the complete model deployment."
   ],
   "full_local_corpus_regression": {
     "generated_at": "2026-11-17T08:06:22.917267+00:00",
@@ -125,5 +147,12 @@
     "browser": "isolated headless Edge",
     "scope": "Select Python subject and submit authored FAQ through UI",
     "screenshot": "docs/assets/demo.png"
+  },
+  "fresh_github_clone": {
+    "manifest_verified": true,
+    "offline_tests_run": 105,
+    "passed": 103,
+    "skipped": 2,
+    "demo_acceptance_passed": true
   }
 }
